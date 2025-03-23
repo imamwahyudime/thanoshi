@@ -10,11 +10,12 @@ def delete_half_files(folder_path):
         num_files_to_delete = len(files) // 2
         files_to_delete = random.sample(files, num_files_to_delete)
 
-        for file_name in files_to_delete:
-            file_path = os.path.join(folder_path, file_name)
-            os.remove(file_path)
+        if messagebox.askyesno("Confirmation", f"Are you sure you want to permanently delete approximately {num_files_to_delete} files in {folder_path}?\nThis action cannot be undone."):
+            for file_name in files_to_delete:
+                file_path = os.path.join(folder_path, file_name)
+                os.remove(file_path)
 
-        messagebox.showinfo("Success", f"Successfully deleted approximately {num_files_to_delete} files.")
+                messagebox.showinfo("Success", f"Successfully deleted approximately {num_files_to_delete} files.")
 
     except FileNotFoundError:
         messagebox.showerror("Error", "Folder not found.")
