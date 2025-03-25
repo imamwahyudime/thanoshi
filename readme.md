@@ -2,7 +2,9 @@
 
 This Python script provides a simple GUI application to delete approximately half of the files within a selected folder. 
 
-**⚠️ Warning:** This script permanently deletes files. Use with caution!
+I have two varian for now : 
+**thanoshi-permanent.py :** **⚠️ Warning:** This script permanently deletes files. Use with caution!
+**thanoshi-trashcan.py :** This script moved files to trash folder. Which is more safer than permanent.py
 
 **Tested on Windows 10**
 
@@ -19,7 +21,8 @@ It uses `tkinter` for the GUI, `os` for file system operations, and `random` for
 ## Prerequisites
 
 -   Python 3.x
--   No external libraries required.
+-   thanoshi-trashcan.py: send2trash (necessary library)
+-   thanoshi-permanent.py : No external libraries required
 
 ## Usage
 
@@ -49,7 +52,7 @@ It uses `tkinter` for the GUI, `os` for file system operations, and `random` for
 
 ## Important Notes
 
--   **Data Loss:** This script permanently deletes files. Ensure you have backups of important data before using it.
+-   **Data Loss:** The permanent script variant permanently deletes files. Ensure you have backups of important data before using it.
 -   **Approximation:** The script deletes *approximately* half of the files. The exact number may vary slightly.
 -   **No Undo:** There is no undo functionality. Once files are deleted, they cannot be recovered using this script.
 -   **Testing:** It is highly recommended to test this script on a test folder with non-critical files before using it on important data.
