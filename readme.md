@@ -3,8 +3,8 @@
 This Python script provides a simple GUI application to delete approximately half of the files within a selected folder. 
 
 I have two varian for now : 
-**thanoshi-permanent.py :** **⚠️ Warning:** This script permanently deletes files. Use with caution!
-**thanoshi-trashcan.py :** This script moved files to trash folder. Which is more safer than permanent.py
+- **thanoshi-permanent.py :** **⚠️ Warning:** This script permanently deletes files. Use with caution!
+- **thanoshi-trashcan.py :** This script moved files to trash folder. Which is more safer than permanent.py
 
 **Tested on Windows 10**
 
