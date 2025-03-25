@@ -21,8 +21,8 @@ It uses `tkinter` for the GUI, `os` for file system operations, and `random` for
 ## Prerequisites
 
 -   Python 3.x
--   thanoshi-trashcan.py: send2trash (necessary library)
--   thanoshi-permanent.py : No external libraries required
+-   **thanoshi-trashcan.py :** send2trash (necessary library)
+-   **thanoshi-permanent.py :** No external libraries required
 
 ## Usage
 
