@@ -8,7 +8,7 @@ I have two varian for now :
 
 **Tested on Windows 10**
 
-## Features
+## Features:
 
 It uses `tkinter` for the GUI, `os` for file system operations, and `random` for selecting files to delete.
 
@@ -18,13 +18,13 @@ It uses `tkinter` for the GUI, `os` for file system operations, and `random` for
 -   **Confirmation Prompt:** Asks for confirmation before deleting files to prevent accidental data loss.
 -   **Error Handling:** Handles `FileNotFoundError` and other exceptions, displaying error messages to the user.
 
-## Prerequisites
+## Prerequisites:
 
 -   Python 3.x
 -   **thanoshi-trashcan.py :** send2trash (necessary library)
 -   **thanoshi-permanent.py :** No external libraries required
 
-## Usage
+## Usage:
 
 1.  **Run the Script:**
     Navigate to the directory containing the script and run it using Python:
@@ -50,13 +50,13 @@ It uses `tkinter` for the GUI, `os` for file system operations, and `random` for
     -   If the deletion is successful, a success message will be displayed.
     -   If an error occurs (e.g., folder not found), an error message will be displayed.
 
-## Important Notes
+## Important Notes:
 
 -   **Data Loss:** The permanent script variant permanently deletes files. Ensure you have backups of important data before using it.
 -   **Approximation:** The script deletes *approximately* half of the files. The exact number may vary slightly.
 -   **No Undo:** There is no undo functionality. Once files are deleted, they cannot be recovered using this script.
 -   **Testing:** It is highly recommended to test this script on a test folder with non-critical files before using it on important data.
 
-## Contributing
+## Contributing:
 
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
